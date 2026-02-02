@@ -1,0 +1,65 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About us",
+    "recruitment": "Specialized recruitment",
+    "relocation": "Professional relocation",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Salesforce talent recruitment specialists",
+    "subtitle": "We find Salesforce architects, developers and consultants ready to work on your project with speed and technical accuracy.",
+    "cta": "Request a professional",
+    "cta2": "Talk to a specialist"
+  },
+  "problem": {
+    "title": "Hiring Salesforce professionals is not the same as hiring generic IT",
+    "1": "Scarce and highly competitive market",
+    "2": "Strong resumes but little real-world experience",
+    "3": "Huge differences between Functional, Developer and Architect roles",
+    "4": "High risk of hiring wrong and delaying projects"
+  },
+  "value": {
+    "title": "Why Bittalents Tech?",
+    "1": "Exclusive focus on Salesforce ecosystem",
+    "2": "Real technical validation, not just CV screening",
+    "3": "Fast and assertive candidate delivery",
+    "4": "Focus on project fit, not volume"
+  },
+  "profiles": {
+    "title": "Salesforce profiles we recruit",
+    "items": [
+      "Salesforce Developer",
+      "Salesforce Functional Consultant",
+      "Salesforce Architect",
+      "Salesforce Tech Lead / Delivery Lead",
+      "Salesforce Administrator"
+    ]
+  },
+  "process": {
+    "title": "How our process works",
+    "1": "We understand the technical needs and project context",
+    "2": "We source and technically evaluate professionals",
+    "3": "We present validated candidates",
+    "4": "You interview and choose the best fit"
+  },
+  "clients": {
+    "title": "Who we work with",
+    "1": "Salesforce consulting companies",
+    "2": "System integrators",
+    "3": "Companies with internal Salesforce teams",
+    "4": "Medium and large-scale projects"
+  },
+  "credibility": {
+    "title": "Real Salesforce experience",
+    "text": "Our team has hands-on experience in complex Salesforce projects, including architecture, delivery and enterprise operations."
+  },
+  "cta": {
+    "title": "Need a Salesforce professional now?",
+    "button": "Contact via WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "company": "Bittalents Tech"
+  }
+}
