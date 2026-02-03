@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="text-center text-sm text-gray-400 py-8">
           Bittalents Tech © 2025 | Todos os direitos reservados | Desenvolvido por{" "}
           <a
-            href="https://www.linkedin.com/in/vitor-mendes/"
+            href="https://www.linkedin.com/in/vitor-mendess/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white font-medium hover:text-accent transition"
