@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Linkedin,
   MessageCircle,
@@ -31,24 +32,24 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="/home" className="hover:text-accent transition">
+                <Link to="/" className="hover:text-accent transition">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quem-somos" className="hover:text-accent transition">
+                <Link to="/quem-somos" className="hover:text-accent transition">
                   Quem somos
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/recrutamento" className="hover:text-accent transition">
+                <Link to="/recrutamento" className="hover:text-accent transition">
                   Recrutamento Salesforce
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contato" className="hover:text-accent transition">
+                <Link to="/contato" className="hover:text-accent transition">
                   Contato
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -111,5 +112,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-
