@@ -7,7 +7,7 @@ export default function FinalCTA() {
       {/* Primeiro parágrafo */}
       <p className="text-lg text-gray-700 mb-4 max-w-2xl mx-auto leading-relaxed">
         <span className="font-bold">
-          Contratar Salesforce errado custa tempo, dinheiro e credibilidade.
+          Escolher o profissional Salesforce errado aumenta retrabalho, atrasos e risco para o negócio.
         </span>
       </p>
 
@@ -20,7 +20,7 @@ export default function FinalCTA() {
       </p>
 
       <h2 className="text-3xl font-bold text-darkblue mb-6">
-        Precisa de um profissional Salesforce agora?
+        Precisa de um profissional Salesforce?
       </h2>
 
       <a

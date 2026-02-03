@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import {
   MessageCircle,
   Handshake,
@@ -59,10 +58,8 @@ export default function ProcessSection() {
             const Icon = step.icon;
 
             return (
-              <motion.div
+              <div
                 key={i}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1 }}
                 className="
                   relative bg-white border border-gray-200
                   rounded-2xl p-8 pt-14
@@ -87,18 +84,17 @@ export default function ProcessSection() {
                 <p className="text-bttext leading-relaxed">
                   {step.description}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
 
-          {/* 5º card centralizado */}
+          {/* 5º card centralizado, ícone à esquerda */}
           {steps.slice(4, 5).map((step, i) => {
             const Icon = step.icon;
+
             return (
-              <motion.div
+              <div
                 key={i + 4}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
                 className="
                   relative bg-white border border-gray-200
                   rounded-2xl p-8 pt-14
@@ -107,10 +103,10 @@ export default function ProcessSection() {
                   max-w-md
                 "
               >
-                {/* Ícone */}
+                {/* Ícone à esquerda */}
                 <div
                   className="
-                    absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full
+                    absolute -top-8 left-8 w-16 h-16 rounded-full
                     bg-accent/10 flex items-center justify-center
                     shadow-md
                   "
@@ -118,14 +114,14 @@ export default function ProcessSection() {
                   <Icon className="w-7 h-7 text-accent" />
                 </div>
 
-                <h3 className="text-xl font-bold text-darkblue mb-3 text-center">
+                <h3 className="text-xl font-bold text-darkblue mb-3">
                   {step.title}
                 </h3>
 
-                <p className="text-bttext leading-relaxed text-center">
+                <p className="text-bttext leading-relaxed">
                   {step.description}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
         </div>

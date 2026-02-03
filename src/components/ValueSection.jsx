@@ -11,11 +11,11 @@ export default function ValueSection() {
           whileInView={{ opacity: 1, x: 0 }}
         >
           <h2 className="text-3xl font-bold text-darkblue mb-6">
-            Por que nossa seleção de profissionais Salesforce é mais assertiva
+            Por que nossa seleção de profissionais Salesforce é mais assertiva?
           </h2>
 
           <p className="text-lg text-bttext">
-           <span className="font-bold">Na BittalentsTech</span>, somos focados exclusivamente em Salesforce. Validamos tecnicamente os profissionais e indicamos apenas quem realmente faz sentido para o seu projeto.
+           Na <span className="font-bold"> BittalentsTech</span>, somos focados exclusivamente em Salesforce. Validamos tecnicamente os profissionais e indicamos apenas quem realmente faz sentido para o seu projeto.
           </p>
         </motion.div>
 
