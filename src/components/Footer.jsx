@@ -31,22 +31,22 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#home" className="hover:text-accent transition">
+                <a href="/home" className="hover:text-accent transition">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#quem-somos" className="hover:text-accent transition">
+                <a href="/quem-somos" className="hover:text-accent transition">
                   Quem somos
                 </a>
               </li>
               <li>
-                <a href="#recrutamento" className="hover:text-accent transition">
+                <a href="/recrutamento" className="hover:text-accent transition">
                   Recrutamento Salesforce
                 </a>
               </li>
               <li>
-                <a href="#contato" className="hover:text-accent transition">
+                <a href="/contato" className="hover:text-accent transition">
                   Contato
                 </a>
               </li>
