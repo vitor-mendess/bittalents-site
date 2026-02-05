@@ -66,7 +66,7 @@ export default function Footer() {
                 (11) 91232-6200
               </li>
               <li>
-                contato@bittalents.tech
+                elias@bittalentstech.com
               </li>
               <li>
                 São Paulo – SP
