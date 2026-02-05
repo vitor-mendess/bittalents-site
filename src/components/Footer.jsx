@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import {
   Linkedin,
+  Instagram,
   MessageCircle,
 } from "lucide-react";
 
@@ -81,6 +82,7 @@ export default function Footer() {
             </h3>
 
             <div className="flex gap-4">
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/company/bittalents-tech/"
                 target="_blank"
@@ -89,6 +91,17 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5 text-white" />
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/bittalents.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white/10 p-3 rounded-lg hover:bg-accent transition"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5 text-white" />
               </a>
             </div>
           </div>
