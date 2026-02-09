@@ -23,7 +23,7 @@ export default function Header() {
           className="text-2xl font-extrabold text-primary"
           onClick={() => setOpen(false)}
         >
-          Bittalents<span className="text-accent">Tech</span>
+          Bittalents<span className="text-accent italic">Tech</span>
         </Link>
 
         {/* Menu Desktop */}

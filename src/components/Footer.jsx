@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Logo + frase */}
           <div>
             <h2 className="text-3xl font-extrabold text-white mb-4">
-              Bittalents<span className="text-accent">Tech</span>
+              Bittalents<span className="text-accent italic">Tech</span>
             </h2>
 
             <p className="text-gray-400 mb-6 leading-relaxed">
